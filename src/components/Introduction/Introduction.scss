@@ -1,0 +1,43 @@
+.box {
+  background: #000 url('../../images/background.jpg');
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.introduction {
+  align-items: center;
+  bottom: auto;
+  display: flex;
+  flex-direction: column;
+  left: auto;
+  position: absolute;
+  right: auto;
+  text-align: center;
+  top: 15rem;
+  z-index: 1;
+
+  &__title,
+  &__subtitle {
+    color: #fff;
+    font: italic 3.5rem 'relaway-light';
+    line-height: .8;
+
+    @media (max-width: 991px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__subtitle {
+    padding-top: 1rem;
+  }
+
+  &__ico {
+    color: #e91e63;
+  }
+}
