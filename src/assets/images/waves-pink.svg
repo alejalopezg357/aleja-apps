@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="70px" viewBox="0 0 1440 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Copia de waves-white</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.662745 0 0 0 0 0.427451 0 0 0 0 0.529412 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="Copia-de-waves-white">
+            <g transform="translate(0.000000, -0.000556)">
+                <path d="M0,21.4555556 C0,21.4555556 421.875,-26.8194444 752.016,21.4555556 C1082.157,69.7305556 1440,21.4065556 1440,21.4065556 L1440,70.0005556 L0,70.0005556 L0,21.4555556 Z" id="Fill-1" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

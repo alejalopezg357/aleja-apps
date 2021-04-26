@@ -1,0 +1,28 @@
+@import './base/animations.scss';
+@import './base/reset.scss';
+@import './base/variables.scss';
+@import './base/mixins.scss';
+
+@import './components/background/background.scss';
+@import './components/banner/banner.scss';
+@import './components/introduction/introduction.scss';
+@import './components/navbar/navbar.scss';
+@import './components/scroll/scroll.scss';
+@import './components/titles/titles.scss';
+@import './components/waves/waves.scss';
+
+.box {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+
+  &--large {
+    height: 100vh;
+  }
+
+  &--small {
+    height: 35rem;
+  }
+}

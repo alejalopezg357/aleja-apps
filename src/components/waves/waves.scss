@@ -1,0 +1,28 @@
+.waves {
+  position: relative;
+  width: 100%;
+
+  &__image {
+    &-one,
+    &-two {
+      background-repeat: repeat-x;
+      bottom: 0;
+      display: flex;
+      height: 7rem;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: auto;
+      width: 100%;
+    }
+
+    &-one {
+      animation: waveOne 5s linear infinite;
+    }
+
+    &-two {
+      animation: waveTwo 5s linear infinite;
+      opacity: .7;
+    }
+  }
+}

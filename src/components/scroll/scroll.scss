@@ -1,0 +1,27 @@
+.scroll {
+  border-radius: 3rem;
+  border: .4rem solid var(--light-color);
+  bottom: 3rem;
+  cursor: pointer;
+  height: 7rem;
+  left: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  right: 3rem;
+  top: auto;
+  width: 5rem;
+
+  &::after {
+    animation: scroll 1s infinite alternate;
+    background-color: var(--light-color);
+    border-radius: 50%;
+    content: '';
+    height: 1rem;
+    left: 50%;
+    position: absolute;
+    top: 2rem;
+    transform: translate(-50%, 0);
+    width: 1rem;
+	}
+}

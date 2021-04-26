@@ -1,0 +1,25 @@
+@keyframes scroll {
+  100% {
+    transform: translate(-50%, 15px)
+  }
+}
+
+@keyframes waveOne {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 140rem;
+  }
+}
+
+@keyframes waveTwo {
+  0% {
+    background-position: 140rem;
+  }
+
+  100% {
+    background-position: 0;
+  }
+}

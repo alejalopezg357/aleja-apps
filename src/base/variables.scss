@@ -1,0 +1,76 @@
+:root {
+  // ejem : var(--light-color);
+
+  //---------------------------------------- Media.
+  --screen-xs:                 340px;
+  --screen-sm:                 568px;
+  --screen-md:                 768px;
+  --screen-lg:                 1024px;
+  --screen-xl:                 1200px;
+
+ //---------------------------------------- Base.
+  --html-size:                 62.5%;
+
+  --container-width:           120rem;
+
+  --overlay-bg:                rgba(var(--dark-color-rgb), .4);
+
+  --weight:                    900;
+
+  //---------------------------------------- Colors.
+  --main-color:                #a96d87;
+  --main-color-dark:           #c10557;
+
+  --corporate-color:           #192e73;
+  --corporate-color-light:     #495691;
+  --corporate-color-dark:      #061751;
+
+  --custom-color:              #f5b956;
+
+  --light-color:               #ffffff;
+
+  --dark-color:                #000000;
+  --dark-color-rgb:            0, 0, 0;
+
+  //---------------------------------------- Fonts.
+  --main-font:                 Sacramento;
+
+  --corporate-font:            Fredoka One;
+
+  --custom-font:               Lato;
+
+  //---------------------------------------- Titles.
+  --title-color:               var(--dark-color);
+  --title-font:                var(--main-font);
+  --title-size:                3.5rem;
+
+  --subtitle-color:            var(--main-color-dark);
+  --subtitle-font:             var(--corporate-font);
+  --subtitle-line-height:      1;
+  --subtitle-size:             4.5rem;
+  --subtitle-transform:        uppercase;
+
+  --subtitle-before-bg:        var(--subtitle-color);
+  --subtitle-before-height:    .2rem;
+  --subtitle-before-width:     3rem;
+
+  --p-color:                   var(--dark-color);
+  --p-font:                    var(--custom-font);
+  --p-line-height:             1.4;
+  --p-size:                    1.6rem;
+
+  //---------------------------------------- Links.
+  --link-color:               var(--main-color-dark);
+  --link-font:                var(--custom-font);
+  --link-size:                1.5rem;
+  --link-transform:           uppercase;
+
+  --link-before-bg:           var(--custom-color);
+
+  //---------------------------------------- Extras.
+  --parallax-size:            7.5rem;
+  --parallax-size-mobile:     3rem;
+
+  //---------------------------------------- Navbar.
+  --navbar-size:              2rem;
+}
